@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -33,10 +30,10 @@
                     "--bin=rust_demo_1",
                     "--package=rust_demo_1"
                 ],
-                // "filter": {
-                //     "name": "rust_demo_1",
-                //     "kind": "bin"
-                // }
+                "filter": {
+                    "name": "rust_demo_1",
+                    "kind": "bin"
+                }
             },
             "args": [],
             "cwd": "${workspaceFolder}"
